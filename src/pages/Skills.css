@@ -1,0 +1,29 @@
+.front-end, .back-end, .test-container, .others-container {
+  display: flex;
+  margin: 1em;
+  flex-direction: column;
+  width: 25em;
+  height: 45em;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  align-items: center;
+  background-color: rgba(47, 50, 58, 1);
+  border-radius: 1em;
+}
+
+.skills-container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 2em;
+  justify-content: center;
+}
+
+.front-end img, .back-end img, .test-container img, .others-container img {
+  width: 10em;
+  height: 3em;
+  margin: 0.3em;
+  border-radius: 1em;
+}
+
+.front-end h1, .back-end h1, .test-container h1, .others-container h1 {
+  color: rgba(237, 230, 227, 1)
+}

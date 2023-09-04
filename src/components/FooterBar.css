@@ -1,0 +1,10 @@
+.footer-bar {
+  padding: 0.1em;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: rgba(255, 252, 249, 1);
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  max-width: 100%;
+}

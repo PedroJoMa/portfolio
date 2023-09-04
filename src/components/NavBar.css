@@ -1,0 +1,43 @@
+.navBar {
+  /* background-color: rgba(0, 0, 0, 0.6); */
+  display: flex;
+  margin: 0;
+  justify-content: space-around;
+  padding: 1em;
+}
+
+.efeito {
+  border: none;
+  color: rgba(0, 0, 0, 1);
+  padding: 0.3em;
+  margin: 0.2em;
+  font-size: 1.2em;
+  line-height: 1.2em;
+  border-radius: 0.5em;
+  position: relative;
+  box-sizing: border-box;
+  cursor: pointer;
+  transition: all 400ms ease;
+}
+
+.preenchimento {
+  /* background-color: rgba(47, 50, 58, 1); */
+  background-color: rgba(237, 230, 227, 1);
+  color: rgba(67, 65, 126, 1);
+}
+
+.preenchimento::before {
+  content: '';
+  position: absolute;
+  top: 0em;
+  left: 0em;
+  width: 0em;
+  height: 1.8em;
+  background: rgba(40, 52, 138, 0.6);
+  border-radius: 0.5em;
+  transition: all 2s ease;
+}
+
+.preenchimento:hover::before {
+  width: 100%;
+}

@@ -1,0 +1,12 @@
+.contact {
+  display: flex;
+  justify-content: center;
+  padding: 1em;
+}
+
+.contact img {
+  width: 2em;
+  height: 2em;
+  border-radius: 10em;
+}
+
