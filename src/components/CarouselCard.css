@@ -69,3 +69,13 @@
   height: 2em;
   margin: 1em;
 }
+
+.more-info {
+  display: flex;
+}
+
+.more-info a {
+  display: flex;
+  flex-direction: row;
+  margin-left: 1em;
+}

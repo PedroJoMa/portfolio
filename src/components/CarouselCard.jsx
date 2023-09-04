@@ -37,19 +37,33 @@ function CarouselCard({ projetos }) {
                   )
                 })}
               </div>
-              <h4>Mais informações:</h4>
-              <a
-                href={currentProject.link}
-                target="_blank"
-                rel="noreferrer"
-              >
-                <button
-                  type="button"
-                  id='curriculo'
+                <h4>Mais informações:</h4>
+              <div className='more-info'>
+                <a
+                  href={currentProject.github}
+                  target="_blank"
+                  rel="noreferrer"
                 >
-                  Visualizar Projeto
-                </button>
-              </a>
+                  <button
+                    type="button"
+                    id='curriculo'
+                  >
+                    Github
+                  </button>
+                </a>
+                <a
+                  href={currentProject.website}
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <button
+                    type="button"
+                    id='curriculo'
+                  >
+                    Website
+                  </button>
+                </a>
+              </div>
             </div>
           </div>
         </div>
