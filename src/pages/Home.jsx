@@ -21,15 +21,8 @@ function Home () {
                             <p id="work">Desenvolvedor Web</p>
                         </div>
                         <div className="information-container">
-                            <div className="information">
-                                <p>Idade</p>
-                                <p>Nacionalidade</p>
-                                <p>Pronome</p>
-                            </div>
-                            <div className="response-info">
-                                <p>22</p>
-                                <p>Brasileiro</p>
-                                <p>Ele/dele</p>
+                            <div>
+                                <h1>Seja bem vindo ao meu PortFolio! ☕🧑‍💻</h1>
                             </div>
                             <SocialMedia />
                         </div>

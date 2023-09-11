@@ -7,7 +7,8 @@
 }
 
 .aboutme article {
-  font-size: 1.1em;
+  font-size: 1em;
+  line-height: 1.4em;
   width: 42em;
   text-align: justify;
   margin-right: 1em;
@@ -31,6 +32,7 @@
   border-radius: 0.6em;
   width: 65em;
   height: 28em;
+  max-width: 100%;
 }
 
 #curriculo {
@@ -78,4 +80,8 @@
 #link-to-curriculum {
   text-decoration: none;
   margin-left: 5em;
+}
+
+@media (min-width: 768px) {
+  
 }
