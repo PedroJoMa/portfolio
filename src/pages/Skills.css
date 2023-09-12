@@ -27,3 +27,15 @@
 .front-end h1, .back-end h1, .test-container h1, .others-container h1 {
   color: rgba(237, 230, 227, 1)
 }
+
+@media (max-width: 767px) {
+  .skills-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 90%;
+  }
+
+  .front-end, .back-end, .test-container, .others-container {
+    max-width: 100%;
+  }
+}
