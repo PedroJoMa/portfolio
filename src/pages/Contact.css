@@ -81,3 +81,48 @@
   margin-top: 1em;
   margin-left: 10em;
 }
+
+@media (max-width: 767px) {
+  .contact-content {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    align-items: center;
+  }
+
+  .contact-simpletext {
+    margin: 0;
+    align-items: center;
+    max-width: 100%;
+  }
+
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    max-width: 100%;
+  }
+
+  .contact-field {
+    max-width: 100%;
+  }
+
+  .contact-field textarea {
+    width: 20em;
+  }
+
+  .contact-idetification input {
+    width: 18em;
+  }
+
+  .contact-image {
+    margin: 0;
+    margin-top: 1em;
+    margin-bottom: 4em;
+  }
+
+  #writer-image {
+    width: 10em;
+    height: 10em;
+  }
+}
