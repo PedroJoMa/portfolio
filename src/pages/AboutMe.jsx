@@ -30,12 +30,25 @@ function AboutMe () {
                 </button>
               </a>
           </div>
-          <article>
-            <h1>Olá,</h1> meu nome é Pedro Jorge e sou um Desenvolvedor Backend apaixonado por tecnologia e seus desdobramentos. Acredito que a tecnologia tem um papel fundamental em melhorar as rotinas diárias das pessoas e sempre busco contribuir para esse avanço.
-            Além de facilitar e organizar ambientes complexos de trabalho, a inovação também é capaz de criar soluções que atendam às necessidades do público em geral.
-            Durante a minha graduação em Sistemas de Informação, tive a oportunidade de conhecer os desafios enfrentados pelos programadores e as diversas áreas de atuação na programação.
-            Nesse momento, descobri minha paixão pela programação e decidi buscar aprimorar meus conhecimentos. Foi assim que encontrei a Trybe, onde pude desenvolver minhas habilidades em linguagens de programação e banco de dados, além de aprimorar minhas Soft Skills. Sou uma pessoa colaborativa, dedicada e adaptável a diferentes ambientes de trabalho em grupo. Busco sempre contribuir com o desenvolvimento dos projetos de maneira proativa e com respeito pelos outros membros da equipe. Estou disposto a enfrentar novos desafios e a aprender diariamente para me tornar um profissional cada vez melhor.   
-          </article>
+          <div>
+            <article className="text-about">
+              <p>
+                Olá, meu nome é <span>Pedro Jorge</span> e sou um Desenvolvedor Backend apaixonado por tecnologia e seus desdobramentos.
+                Acredito que a tecnologia tem um papel fundamental em melhorar as rotinas diárias das pessoas e sempre busco contribuir para esse avanço.
+                Além de facilitar e organizar ambientes complexos de trabalho, a inovação também é capaz de criar soluções que atendam às necessidades do público em geral.
+              </p>
+              <p>
+                Durante a minha graduação em Sistemas de Informação, tive a oportunidade de conhecer os desafios enfrentados pelos programadores e as diversas áreas de atuação na programação.
+                Nesse momento, descobri minha paixão pela programação e decidi buscar aprimorar meus conhecimentos. 
+                Foi assim que encontrei a Trybe, onde pude desenvolver minhas habilidades em linguagens de programação e banco de dados, além de aprimorar minhas Soft Skills.
+              </p>
+              <p>
+                Sou uma pessoa colaborativa, dedicada e adaptável a diferentes ambientes de trabalho em grupo. 
+                Busco sempre contribuir com o desenvolvimento dos projetos de maneira proativa e com respeito pelos outros membros da equipe. 
+                Estou disposto a enfrentar novos desafios e a aprender diariamente para me tornar um profissional cada vez melhor.
+              </p>
+            </article>
+          </div>
         </div>
       </div>
       <footer>

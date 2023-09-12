@@ -4,6 +4,7 @@
   flex-direction: column;
   padding: 0;
   align-items: center;
+  border-radius: 1em;
 }
 
 .aboutme article {
@@ -16,6 +17,10 @@
   font-weight: bold;
 }
 
+.aboutme span {
+  font-size: 1.1em;
+}
+
 #photo-about {
   width: 15em;
   height: 15em;
@@ -26,12 +31,12 @@
 .aboutme {
   display: flex;
   flex-direction: row;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  background-color: rgba(47, 50, 58, 1);
   display: flex;
   border-radius: 0.6em;
   width: 65em;
   height: 28em;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  background-color: rgba(47, 50, 58, 1);
   max-width: 100%;
 }
 
@@ -82,6 +87,51 @@
   margin-left: 5em;
 }
 
-@media (min-width: 768px) {
-  
+@media (max-width: 768px) {
+  .about-page {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1em;
+    align-items: center;
+  }
+  .aboutme {
+    display: flex;
+    flex-direction: column;
+    max-width: 90%;
+  }
+
+  .aboutme article {
+    max-width: 99%;
+    margin-top: 5em;
+    background-color: rgba(47, 50, 58, 1);
+    border-radius: 1em;
+    margin-bottom: 6em;
+  }
+  .aboutme p {
+    font-size: 0.8em;
+    width: 22em;
+  }
+
+  .text-about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .photo-curriculum {
+    display: flex;
+    flex-direction: column;
+    width: 21em;
+    align-items: center;
+  }
+
+  #photo-about {
+    width: 15em;
+    height: 15em;
+  }
+
+  #link-to-curriculum {
+    width: 7.4em;
+    margin: 0;
+  }
 }
