@@ -103,6 +103,7 @@
   .projects-content {
     display: flex;
     justify-content: center;
+    margin-bottom: 6em;
   }
   .carousel-inner {
     border-radius: 1em;

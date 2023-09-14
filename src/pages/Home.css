@@ -133,6 +133,7 @@ html, body {
 @media (max-width: 768px) {
   .body-page {
     max-width: 100%;
+    margin-bottom: 4em;
   }
 
   .identification {
