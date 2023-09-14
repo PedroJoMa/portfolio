@@ -1,21 +1,23 @@
 .carousel {
-  width: 70%;
+  width: 50%;
   margin: 0 auto;
   position: relative;
   overflow: hidden;
   background-color: rgba(47, 50, 58, 1);
   color: rgba(237, 230, 227, 1);
+  border-radius: 1em;
 }
 
 .carousel-inner {
   display: flex;
   transition: transform 0.5s;
   border: solid black;
+  border-radius: 1em;
 }
 
 .carousel-slide {
   display: flex;
-  margin-left: 10em;
+  margin-left: 2em;
 }
 
 .carousel-slide img {
@@ -26,9 +28,7 @@
 .carousel-text {
   display: flex;
   flex-direction: column;
-  width: 50em;
-  height: 28em;
-  margin-left: 20px;
+  margin-left: 2em;
 }
 
 .carousel-text img {
@@ -40,43 +40,129 @@
   width: 7.4em;
 }
 
+#project-description {
+  text-align: justify;
+  width: 30em;
+}
+
 .carousel-button {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  background-color: rgba(0, 0, 0, 0.5);
-  color: #fff;
-  font-size: 24px;
+  background-color: transparent;
+  font-size: 1em;
   border: none;
   cursor: pointer;
-  padding: 10px 15px;
+  padding: 1em 1em;
 }
 
 .carousel-prev {
-  left: 10px;
+  left: 14em;
 }
 
 .carousel-next {
-  right: 10px;
+  right: 13em;
 }
 
 .tech-images {
   display: flex;
+  flex-wrap: wrap;
+  max-width: 20em;
 }
 
 .tech-images img {
   width: 2em;
   height: 2em;
-  margin: 1em;
+}
+
+#technologie {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 6em;
 }
 
 .more-info {
   display: flex;
+  margin-bottom: 1em;
 }
 
 .more-info a {
   display: flex;
   flex-direction: row;
-  margin-left: 1em;
+  margin-right: 1em;
   text-decoration: none;
+}
+
+.button-image {
+  width: 3em;
+  height: 3em;
+}
+
+@media (max-width: 767px) {
+  .projects-content {
+    display: flex;
+    justify-content: center;
+  }
+  .carousel-inner {
+    border-radius: 1em;
+  }
+
+  .carousel {
+    display: flex;
+    margin: 0;
+    border-radius: 1em;
+    width: 80%;
+  }
+
+  .carousel-slide {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    align-items: center;
+  }
+
+  #project-image {
+    width: 10em;
+    height: 10em;
+  }
+
+  .carousel-text {
+    display: flex;
+    align-items: center;
+    margin: 0;
+  }
+
+  #project-description {
+    font-size: 0.75em;
+    margin: 0;
+    width: 22em;
+    text-align: justify;
+  }
+
+  .tech-images {
+    display: flex;
+    margin: 0;
+    margin-bottom: 1em;
+  }
+
+  .more-info {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    margin-bottom: 1em;
+  }
+
+  .button-image {
+    width: 1.5em;
+    height: 1.5em;
+  }
+
+  .carousel-prev {
+    left: 0em;
+  }
+
+  .carousel-next {
+    right: 0em;
+  }
 }
